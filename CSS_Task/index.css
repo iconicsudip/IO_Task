@@ -1,0 +1,455 @@
+@import url("https://use.typekit.net/avt1lcb.css");
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0px 1px 7px 1px rgb(0 0 0 / 10%);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 2;
+    gap: 1rem;
+}
+.items{
+    width: 100%;
+    display: flex;
+    margin: 2rem 0;
+    gap: 1rem;
+}
+.food1{
+    width: 100%;
+    height: 102vh;
+    background: url("./images/food1.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position:center;
+border-radius: 20px;
+}
+.boxfour{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.food2{
+    width: 46%;
+    height: 50vh;
+    background: url("./images/food2.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position:center;
+border-radius: 20px;
+}
+.food3{
+    width: 46%;
+    height: 50vh;
+    background: url("./images/food3.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position:center;
+border-radius: 20px;
+}
+.food4{
+    width: 46%;
+    height: 50vh;
+    background: url("./images/food4.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position:center;
+border-radius: 20px;
+}
+.food5{
+    width: 46%;
+    height: 50vh;
+    background: url("./images/food5.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position:center;
+border-radius: 20px;
+}
+.content1{
+    padding-top: 4.5rem;
+    top: 4.5rem;
+}
+.content2{
+    height: 100vh;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 2rem 0;
+}
+.footer img{
+    width: 1rem;
+}
+.instagram,.twitter img{
+    width: 1.5rem;
+}
+.footer div{
+    border-radius: 50px;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #D9D9D9;
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    padding: 2rem;
+}
+
+.heading h1,.topchefs h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+text-align: center;
+color: #2B2B2B;
+}
+.heading,.topchefs{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.border{
+    width: 80px;
+    height: 3px;
+    background: #342679;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    display: flex;
+}
+.itemtext{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+.itemtext .box{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+.box p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+}
+.box h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 32px;
+}
+.box{
+    padding: 2rem;
+    cursor: pointer;
+}
+.box:hover{
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 1px 20px 1px rgb(0 0 0 / 10%);
+}
+.chefslist{
+    background-image: url("./images/donuts.svg");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+    background-position:center
+}
+.banner{
+    background-image: url("./images/foodbanner.svg");
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: -2rem 0 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+    align-items: center;
+    flex-direction: column;
+    background-position:center
+}
+.banner img{
+    width: 82.39px;
+}
+.bannercontent{
+    width: 100%;
+    column-gap: 0;
+    align-content: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    margin: 2rem 0;
+}
+.banneritem{
+    text-align: center;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.banner h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 40px;
+/* or 118% */
+
+text-align: center;
+
+color: #2B2B2B;
+}
+.banneritem p{
+    width: 60%;
+    margin: auto;
+    padding: 0 1rem;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+text-align: center;
+
+color: #2B2B2B;
+}
+.banneritem h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+text-align: center;
+
+color: #2B2B2B;
+}
+.itemback{
+    background: rgba(52, 38, 121, 0.7);
+    border-radius: 50%;
+    width: fit-content;
+    margin: auto;
+    padding: 1rem;
+}
+.person{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    text-align: center;
+    padding: 2rem;
+    cursor: pointer;
+    margin: 1rem;
+}
+.person:hover {
+    background: white;
+    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.1);
+border-radius: 20px;
+}
+.person:hover h3{
+    color: black;
+}
+.person:hover p{
+    color: black;
+}
+.person img{
+    border-radius: 50%;
+}
+.person h3{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.person p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.food1,.food2,.food3,.food4,.food5{
+    position: relative;
+    cursor: pointer;
+}
+.title{
+    padding: 0 1rem;
+}
+.food1:hover,.food2:hover,.food3:hover,.food4:hover,.food5:hover{
+    box-shadow: 0px 1px 20px 1px rgba(0, 0, 0, 0.1);
+}
+.descbox1{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 20px 20px;
+    background: #342679;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.descbox2{
+    background: #FFFFFF;
+    opacity: 0.8;
+}
+.descbox3{
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0.8;
+}
+.descbox2,.descbox3{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+}
+.descbox1 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+color: white;
+}
+.descbox1 h3{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.title h3{
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.descbox2 p {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+}
+.descbox3 h3{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+.descbox3 p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 26px;
+color: white;
+}
+.descbox2 .border1{
+    background: #616161;
+}
+.border1{
+    height: 1px;
+    width: 90%;
+    background: #FFFFFF;
+    margin: auto;
+}
+.explore{
+    padding: 0 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.explore img{
+    width: 8px;
+}
+.detailitem1{
+    width: fit-content;
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    margin: 1rem;
+}
+.rating{
+    margin: 1rem 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.rating img{
+    width: 20px;
+}
+.otherdetails{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 842px) {
+    .itemtext{
+        flex-direction: column;
+    }
+  }
+@media only screen and (max-width: 728px) {
+    .chefslist{
+        flex-direction: column;
+    }
+    .bannercontent{
+        flex-direction: column;
+    }
+    .banneritem{
+        width: 100%;
+    }
+  }
+@media only screen and (max-width: 960px) {
+    .items{
+        flex-direction: column;
+    }
+  }
+@media only screen and (max-width: 545px) {
+    .boxfour{
+        flex-direction: column;
+    }
+    .food2,.food3,.food4,.food5{
+        width: 100%;
+    }
+  }
