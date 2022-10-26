@@ -1,0 +1,33 @@
+.visualize{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+#table{
+    border-collapse: collapse!important;
+}
+td{
+    width:5rem;
+    height:3rem;
+    border:1px solid;
+}
+#giveninput,#outputsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.inputsection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
