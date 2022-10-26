@@ -47,11 +47,9 @@ function generateResult(height){
         ans += calc;
         output[i] = calc
     }
-    console.log(ans)
     const row = maxi+1;
     const column = height.length;
     let inputMat = createInputMatrix(height,output,row,column)
-    console.log(inputMat)
     inputTable(height,row,column,inputMat)
     outputTable(ans,row,column,inputMat)
 }
@@ -104,7 +102,7 @@ function outputTable(ans,row,col,inputMat){
     tableString += `</table>`;
     div.innerHTML = tableString;
     body.innerHTML = ``;
-    body.innerHTML +=  `<p>Output : ${ans}</p>`
+    body.innerHTML +=  `<p>Output : ${ans} Units</p>`
     body.appendChild(div);
 }
 function inputTable(input,row, col,inputMat){
