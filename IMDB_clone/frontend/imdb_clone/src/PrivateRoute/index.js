@@ -23,7 +23,7 @@ const PrivateRoute = ({children})=>{
                 dispatch(userAuthenticated(json.user_id))
             }
         })
-    },[])
+    },[dispatch])
     // console.log(localStorage.getItem("valid"))
     return userid===null?<Navigate to="/signin"/>:children;
 }
